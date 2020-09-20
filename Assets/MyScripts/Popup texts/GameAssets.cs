@@ -15,6 +15,6 @@ public class GameAssets : MonoBehaviour
         }
     }
 
-    public Transform pfTexturePopup;
+    public Transform pfTextPopup;
 
 }
