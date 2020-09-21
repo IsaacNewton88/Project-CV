@@ -5,7 +5,7 @@ using UnityEngine;
 public class Skills : MonoBehaviour
 {
 
-    // List of skills with:
+    // List of skills with: //use dictonary maybe
         // name
         // int level
 
@@ -39,7 +39,7 @@ public class Skills : MonoBehaviour
      * Analytics
      */
 
-
+    
     // Start is called before the first frame update
     void Start()
     {
