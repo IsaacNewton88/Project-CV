@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03928b308484e314097812c20a8f19f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pfTextPopup: {fileID: 321029058866228520, guid: 33dfd0f6f1a8f3e4d9ac3f03da03b6d0,
+  pfTextPopup: {fileID: 2006806779922168431, guid: 7a56e5a83c0b24f4aac8f62bb2838e10,
     type: 3}
