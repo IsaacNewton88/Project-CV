@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: GiveRewards
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"GiveRewards","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"System.Collections.Generic.List`1[[SkillSet,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]","key":"listOfRewards","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"GiveRewards","summary":null,"pan":{"x":122.4334,"y":33.76643},"zoom":0.9,"elements":[{"defaultValues":{},"position":{"x":-358.0,"y":-99.0},"guid":"bca13006-afa6-4842-9862-2ff407e82962","$version":"A","$type":"Bolt.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":283.0,"y":-98.0},"guid":"bd94258a-dd71-4006-bad9-a4407e8131e0","$version":"A","$type":"Bolt.GraphOutput","$id":"14"},{"dictionary":false,"defaultValues":{},"position":{"x":-128.0,"y":-103.0},"guid":"c6fd35cf-5de1-40e9-a77c-ca4d9d8f57cc","$version":"A","$type":"Bolt.ForEach","$id":"16"},{"argumentCount":1,"defaultValues":{"name":{"$content":"levelUpHappened","$type":"System.String"},"target":null},"position":{"x":160.0,"y":-9.0},"guid":"c892ac55-f115-42af-8e29-c0d82f2edee3","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"18"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"EventManager","$type":"System.String"}},"position":{"x":-112.0,"y":116.0},"guid":"f640e92d-e21f-4a1d-af09-ceb415167dbe","$version":"A","$type":"Bolt.GetVariable","$id":"20"},{"sourceUnit":{"$ref":"16"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"Exit","guid":"b2ea3752-8d8d-495c-a8ee-629a75182c2f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"GiveRewards","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"ee8bd0bc-cb65-4565-b374-def8865bbe48","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"body","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"fa680701-107f-4a54-9deb-965696ae16d5","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"listOfRewards","destinationUnit":{"$ref":"16"},"destinationKey":"collection","guid":"84e5230c-39b3-43ad-a7ca-f07ab625b805","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"currentItem","destinationUnit":{"$ref":"18"},"destinationKey":"argument_0","guid":"6779eda2-34da-4cb5-909d-0af78ebb7d66","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"3f22d3b6-d9ce-4e4a-9615-568d7e1a3bb4","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
