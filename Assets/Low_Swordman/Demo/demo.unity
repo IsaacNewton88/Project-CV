@@ -5874,12 +5874,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &737094157 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8290968133803961691, guid: 61fe41c0ab5c092469f0fbde87df6431,
-    type: 3}
-  m_PrefabInstance: {fileID: 8290968134158436182}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &761748496
 GameObject:
   m_ObjectHideFlags: 0
@@ -7336,35 +7330,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1430370461}
     m_Modifications:
-    - target: {fileID: 8290968133803961691, guid: 61fe41c0ab5c092469f0fbde87df6431,
-        type: 3}
-      propertyPath: m_Name
-      value: QuestMarker
-      objectReference: {fileID: 0}
-    - target: {fileID: 8290968134958731552, guid: 61fe41c0ab5c092469f0fbde87df6431,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8290968134958731552, guid: 61fe41c0ab5c092469f0fbde87df6431,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1],"$type":"System.Collections.Generic.List`1[[SkillSet,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"itemRequirements","value":{"$content":["Armor"],"$type":"System.Collections.Generic.List`1[[System.String,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"skillRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Requirement,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"isRequirementsMet","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8290968134958731552, guid: 61fe41c0ab5c092469f0fbde87df6431,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[2]
-      value: 
-      objectReference: {fileID: 737094157}
-    - target: {fileID: 8290968134958731552, guid: 61fe41c0ab5c092469f0fbde87df6431,
-        type: 3}
-      propertyPath: _data._objectReferences.Array.data[3]
-      value: 
-      objectReference: {fileID: 11400000, guid: c840ad9cea50eb941874a182ec307c77,
-        type: 2}
     - target: {fileID: 8290968134958731553, guid: 61fe41c0ab5c092469f0fbde87df6431,
         type: 3}
       propertyPath: m_LocalPosition.x
