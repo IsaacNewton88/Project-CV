@@ -5983,6 +5983,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a22ee370a4c2ec4e86c9c6b1db2a21a, type: 3}
+--- !u!1 &574271199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8290968134958731557, guid: 61fe41c0ab5c092469f0fbde87df6431,
+    type: 3}
+  m_PrefabInstance: {fileID: 8290968134158436182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &574271203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574271199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 425133e067f611e41a449b16eaa45867, type: 2}
 --- !u!1 &761748496
 GameObject:
   m_ObjectHideFlags: 0
@@ -8235,6 +8257,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1430370461}
     m_Modifications:
+    - target: {fileID: 8290968134958731552, guid: 61fe41c0ab5c092469f0fbde87df6431,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"itemRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1],"$type":"System.Collections.Generic.List`1[[SkillSet,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"skillRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Requirement,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8290968134958731553, guid: 61fe41c0ab5c092469f0fbde87df6431,
         type: 3}
       propertyPath: m_LocalPosition.x
