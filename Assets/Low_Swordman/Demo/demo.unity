@@ -444,6 +444,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6999555482082034661}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &296043559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296043553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 29df931c8f6fa0b438bbfef7167715b5, type: 2}
 --- !u!1 &297527778
 GameObject:
   m_ObjectHideFlags: 0
@@ -8246,7 +8262,7 @@ PrefabInstance:
     - target: {fileID: 6999555482340165574, guid: 55b76809b2d30ae418d44dcbe43ecd1c,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"cellSizeX","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"cellSizeY","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"middleCoordinate","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55b76809b2d30ae418d44dcbe43ecd1c, type: 3}
