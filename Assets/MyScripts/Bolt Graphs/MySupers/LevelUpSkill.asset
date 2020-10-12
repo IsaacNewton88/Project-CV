@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: LevelUpSkill
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"levelUp","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"skill","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"LevelUpSkill","summary":null,"pan":{"x":81.42188,"y":-114.9632},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-603.0,"y":-129.0},"guid":"03909199-f86d-40f9-9fc1-331b1447c154","$version":"A","$type":"Bolt.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":136.0,"y":-124.0},"guid":"2ad9c372-eaa0-4ef9-90bf-ff85191d3a69","$version":"A","$type":"Bolt.GraphOutput","$id":"14"},{"kind":"Object","defaultValues":{"name":{"$content":"level","$type":"System.String"},"object":null},"position":{"x":-64.0,"y":-129.0},"guid":"67e6c2bd-5730-479c-b1e0-e83144c9e7ff","$version":"A","$type":"Bolt.SetVariable","$id":"16"},{"defaultValues":{"b":{"$content":1.0,"$type":"System.Single"}},"position":{"x":-202.0,"y":54.0},"guid":"95a5ca6f-a98e-4711-9a10-e413b4861fe1","$version":"A","$type":"Bolt.ScalarAdd","$id":"18"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"level","$type":"System.String"},"object":null},"position":{"x":-418.0,"y":46.0},"guid":"d2613417-4e6f-4e8b-bfc0-03ea70de7c5b","$version":"A","$type":"Bolt.GetVariable","$id":"20"},{"sourceUnit":{"$ref":"12"},"sourceKey":"levelUp","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"da7cfecc-2cac-471b-882c-2fabef8f38bd","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"assigned","destinationUnit":{"$ref":"14"},"destinationKey":"Exit","guid":"d4c802fa-1400-4128-9bf3-458916100476","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"sum","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"5963bae1-b642-4568-97fb-6ddba5ed7586","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"a","guid":"5d31edaa-42d7-48bd-898b-69c9533eaeaf","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"skill","destinationUnit":{"$ref":"20"},"destinationKey":"object","guid":"e548c3c4-a2af-4997-8eef-d01befb939e5","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"skill","destinationUnit":{"$ref":"16"},"destinationKey":"object","guid":"fed21548-4d72-4423-a33b-d9f794c5f989","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
