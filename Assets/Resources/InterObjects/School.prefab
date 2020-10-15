@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6058002834165888275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.94, y: 2.47, z: 0}
+  m_LocalPosition: {x: 2.5, y: 5, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 6058002834259032627}
@@ -137,13 +137,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6058002834317208630}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.36, y: 0.92, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.008726465, w: 0.999962}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6058002835354613070}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1}
 --- !u!212 &6058002834317208628
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -246,13 +246,15 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"skillRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Requirement,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"itemRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1,2],"$type":"System.Collections.Generic.List`1[[SkillSet,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1,2,3,4],"$type":"System.Collections.Generic.List`1[[SkillSet,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Story","value":{"$content":"You
-      learn a lot of Physics, Mathematics and Computer skills attending School","$type":"System.String"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      learn a lot of Physics, Mathematics and Computer skills attending School","$type":"System.String"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 11400000, guid: 1187edd06c6a4f84e914e3af99b29853, type: 2}
     - {fileID: 11400000, guid: 1187edd06c6a4f84e914e3af99b29853, type: 2}
     - {fileID: 11400000, guid: 14f0adf1ce271f948b5760fc3aab13a5, type: 2}
+    - {fileID: 11400000, guid: 58f1657a67d209f47b48d8eff0aae9b4, type: 2}
+    - {fileID: 11400000, guid: fb8d6606fe6cf1844a3bd96f210ba83e, type: 2}
     - {fileID: 6058002834165888275}
 --- !u!114 &6058002835172454209
 MonoBehaviour:
@@ -283,7 +285,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.810233, y: 0.45387602}
+  m_Offset: {x: 2.5, y: 1.25}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -294,7 +296,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.6701355, y: 2.8431654}
+  m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
 --- !u!114 &6058002835172454211
 MonoBehaviour:
