@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de56d3f67768664babfd95826dd2648, type: 3}
   m_Name: E2E Vision
   m_EditorClassIdentifier: 
-  _name: E2E Vision
+  _name: e2e Vision
   level: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0, g: 0.5, b: 0, a: 0.75}
