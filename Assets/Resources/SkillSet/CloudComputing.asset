@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8de56d3f67768664babfd95826dd2648, type: 3}
-  m_Name: Cloud
+  m_Name: CloudComputing
   m_EditorClassIdentifier: 
-  _name: Cloud
+  _name: CloudComputing
   level: 0
-  color: {r: 0.019357419, g: 0.028703319, b: 0.8207547, a: 0.4745098}
+  color: {r: 0, g: 0, b: 0.2, a: 0.75}
