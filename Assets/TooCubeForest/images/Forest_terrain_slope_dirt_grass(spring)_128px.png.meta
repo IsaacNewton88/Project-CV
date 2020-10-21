@@ -115,9 +115,15 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 53, y: 64}
+        - {x: -64, y: -53}
+        - {x: -64, y: -63}
+        - {x: -63, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -136,9 +142,17 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -54, y: 64}
+        - {x: -63, y: 64}
+        - {x: -64, y: 63}
+        - {x: -64, y: -63}
+        - {x: -63, y: -64}
+        - {x: 63, y: -64}
+        - {x: 64, y: -63}
+        - {x: 64, y: -53}
       physicsShape: []
       tessellationDetail: 0
       bones: []
