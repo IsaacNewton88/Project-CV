@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PCRepair
   m_EditorClassIdentifier: 
   _name: Computer
-  level: 5
+  level: 2
