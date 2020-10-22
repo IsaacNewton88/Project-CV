@@ -277,15 +277,16 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"skillRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Requirement,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"itemRequirements","value":{"$content":["GamePack"],"$type":"System.Collections.Generic.List`1[[System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1,2,3,4],"$type":"System.Collections.Generic.List`1[[SkillSet,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1,2,3,4,5],"$type":"System.Collections.Generic.List`1[[SkillSet,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Story","value":{"$content":"You
-      spend a lot of time on the computer","$type":"System.String"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      spend a lot of time on the computer","$type":"System.String"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 11400000, guid: 14f0adf1ce271f948b5760fc3aab13a5, type: 2}
     - {fileID: 11400000, guid: 2b64940116e234745bb8c625b013374f, type: 2}
     - {fileID: 11400000, guid: dbf93e9bcaa48aa4d9d6182d3004acb8, type: 2}
     - {fileID: 11400000, guid: a3d517f417c3e474e86dda69b8fcf776, type: 2}
     - {fileID: 11400000, guid: fb8d6606fe6cf1844a3bd96f210ba83e, type: 2}
+    - {fileID: 11400000, guid: dbf93e9bcaa48aa4d9d6182d3004acb8, type: 2}
     - {fileID: 1169832692069628239}
 --- !u!114 &1169832693412639783
 MonoBehaviour:

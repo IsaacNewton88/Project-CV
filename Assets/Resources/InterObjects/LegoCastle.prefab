@@ -51,12 +51,13 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"skillRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Requirement,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"itemRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1],"$type":"System.Collections.Generic.List`1[[SkillSet,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1,2],"$type":"System.Collections.Generic.List`1[[SkillSet,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Story","value":{"$content":"You
-      play some Lego","$type":"System.String"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      play some Lego","$type":"System.String"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 11400000, guid: 47f650d4435a26045bdfa8889efeca84, type: 2}
     - {fileID: 11400000, guid: 254217f0a00794f4cb1fdfeace98684e, type: 2}
+    - {fileID: 11400000, guid: dbf93e9bcaa48aa4d9d6182d3004acb8, type: 2}
     - {fileID: 1813426814564153029}
 --- !u!114 &1813426812873083581
 MonoBehaviour:

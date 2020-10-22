@@ -274,14 +274,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1],"$type":"System.Collections.Generic.List`1[[SkillSet,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"itemRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
+    _json: '{"declarations":{"collection":{"$content":[{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1,2],"$type":"System.Collections.Generic.List`1[[SkillSet,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"itemRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"skillRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Requirement,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Story","value":{"$content":"You
       spend time with the Commodore64","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 11400000, guid: dbf93e9bcaa48aa4d9d6182d3004acb8, type: 2}
     - {fileID: 11400000, guid: 14f0adf1ce271f948b5760fc3aab13a5, type: 2}
+    - {fileID: 11400000, guid: dbf93e9bcaa48aa4d9d6182d3004acb8, type: 2}
     - {fileID: 8290968133803961691}
 --- !u!114 &8290968134958731555
 MonoBehaviour:

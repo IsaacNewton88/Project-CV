@@ -196,10 +196,15 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"skillRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Requirement,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"itemRequirements","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[SkillSet,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"Rewards","value":{"$content":[0,1,2,3,4],"$type":"System.Collections.Generic.List`1[[SkillSet,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Story","value":{"$content":"You
-      build a Tesla Coil for your Thesis","$type":"System.String"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ItemReward","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      build a Tesla Coil for your Thesis","$type":"System.String"},"$version":"A"},{"name":"isInteracting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isActive","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"QuestMarker","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ItemReward","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
+    - {fileID: 11400000, guid: 6e84cfe1ff1ee6e40a16e4de42842434, type: 2}
+    - {fileID: 11400000, guid: 254217f0a00794f4cb1fdfeace98684e, type: 2}
+    - {fileID: 11400000, guid: e226091ee82174549a185970fd17a02e, type: 2}
+    - {fileID: 11400000, guid: 1187edd06c6a4f84e914e3af99b29853, type: 2}
+    - {fileID: 11400000, guid: f3add865722444d4ea02476d17cb2d2e, type: 2}
     - {fileID: 7812063895317201315}
     - {fileID: 8395268388916293851, guid: be06459c34b9975409b20d0c3195e33b, type: 3}
 --- !u!114 &7812063895761009820
