@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Ludiq;
+using Bolt;
+using System.Media;
 
 public abstract class PlayerController :MonoBehaviour
 {
@@ -9,6 +12,7 @@ public abstract class PlayerController :MonoBehaviour
     public int currentJumpCount = 0; 
     public bool isGrounded = false;
     public bool OnceJumpRayCheck = false;
+    
 
     public bool Is_DownJump_GroundCheck = false;   // 다운 점프를 하는데 아래 블록인지 그라운드인지 알려주는 불값
     protected float m_MoveX;
@@ -20,6 +24,7 @@ public abstract class PlayerController :MonoBehaviour
     public float MoveSpeed = 6;
     public int JumpCount = 2;
     public float jumpForce = 15f;
+    public GameObject soundSystem;
 
     protected void AnimUpdate()
     {
@@ -78,6 +83,7 @@ public abstract class PlayerController :MonoBehaviour
 
         OnceJumpRayCheck = true;
         isGrounded = false;
+        CustomEvent.Trigger(soundSystem, "Jump");
 
 
         currentJumpCount++;

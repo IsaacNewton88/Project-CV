@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LinearDesign.unity
+    guid: 6d19269631fb36346b971aac6ace4952
   m_configObjects: {}
