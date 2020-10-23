@@ -7379,7 +7379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"ItemSprites","value":{"$content":[0,1,2,3],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Speed","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"isFalling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isGrounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"JumpForce","value":{"$content":15,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Speed","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"isFalling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isGrounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"JumpForce","value":{"$content":15,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 820061238}
     - {fileID: 1587124027}
@@ -7729,16 +7729,47 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4222709003966498631, guid: b84d7559b7b75c34aace605c1b0ea18c,
+    - target: {fileID: 6683640405679374874, guid: b84d7559b7b75c34aace605c1b0ea18c,
         type: 3}
-      propertyPath: Loop
-      value: 1
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4222709003966498631, guid: b84d7559b7b75c34aace605c1b0ea18c,
+    - target: {fileID: 7963352531748525000, guid: b84d7559b7b75c34aace605c1b0ea18c,
         type: 3}
-      propertyPath: m_audioClip
+      propertyPath: _data._objectReferences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963352531748525000, guid: b84d7559b7b75c34aace605c1b0ea18c,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"DeathFx","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Rejected","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Finished","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Jump","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ItemPickup","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DefaultSucces","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"InterSound","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963352531748525000, guid: b84d7559b7b75c34aace605c1b0ea18c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 10b459727c99c724a8762b4549758fa6, type: 3}
+      objectReference: {fileID: 8300000, guid: 42b7ea34be49dcd4cb057e5e16590fed, type: 3}
+    - target: {fileID: 7963352531748525000, guid: b84d7559b7b75c34aace605c1b0ea18c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7b5cfb48a92ab314bbcf3f4d38fe70fc, type: 3}
+    - target: {fileID: 7963352531748525000, guid: b84d7559b7b75c34aace605c1b0ea18c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 11515a990857a0e4785748be3fbc2fdd, type: 3}
+    - target: {fileID: 7963352531748525000, guid: b84d7559b7b75c34aace605c1b0ea18c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 10d0940ccc9dadd4e9afda2e65801fa9, type: 3}
+    - target: {fileID: 7963352531748525000, guid: b84d7559b7b75c34aace605c1b0ea18c,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: c038800cde0f08941be940609b3cad9b, type: 3}
     - target: {fileID: 7963352531748525003, guid: b84d7559b7b75c34aace605c1b0ea18c,
         type: 3}
       propertyPath: m_Name
