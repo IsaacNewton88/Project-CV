@@ -5741,7 +5741,7 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"ownedItems","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"EventManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"textSpawner","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Skills","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"UIHandler","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UISkills","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI_Inventory","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ItemTextures","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Texture,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"UI_Skillbars","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SoundSystem","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"UI_Skillbars","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SoundSystem","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CharacterAnimator","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2094415336}
     - {fileID: 1435219522}
@@ -5751,6 +5751,7 @@ MonoBehaviour:
     - {fileID: 1009807093}
     - {fileID: 585191788}
     - {fileID: 1247491903591633}
+    - {fileID: 95910406573632039}
 --- !u!4 &1878067968
 Transform:
   m_ObjectHideFlags: 0
@@ -6416,7 +6417,7 @@ GameObject:
   - component: {fileID: 4283696684423103}
   - component: {fileID: 95910406573632039}
   m_Layer: 0
-  m_Name: model
+  m_Name: CharacterAnimator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6547,7 +6548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247491903591633}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4283696684423103}
@@ -7378,7 +7379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"ItemSprites","value":{"$content":[0,1,2,3],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"isFalling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isGrounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"Speed","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"isFalling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isGrounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"JumpForce","value":{"$content":15,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 820061238}
     - {fileID: 1587124027}
