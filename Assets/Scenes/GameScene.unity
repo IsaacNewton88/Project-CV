@@ -1819,6 +1819,21 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 661605282}
+    - target: {fileID: 2159712098153562991, guid: 094ac46b5f1502c4d887b8377b4fabc4,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159712098153562991, guid: 094ac46b5f1502c4d887b8377b4fabc4,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2159712098153562991, guid: 094ac46b5f1502c4d887b8377b4fabc4,
+        type: 3}
+      propertyPath: m_UsedByComposite
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5537910029561785718, guid: 094ac46b5f1502c4d887b8377b4fabc4,
         type: 3}
       propertyPath: m_Name
