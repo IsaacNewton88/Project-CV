@@ -279,12 +279,12 @@ PrefabInstance:
     - target: {fileID: 7685850488929028788, guid: d289658187a9cf142a9f316ca7920dd8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 173.83
+      value: 174.48
       objectReference: {fileID: 0}
     - target: {fileID: 7685850488929028788, guid: d289658187a9cf142a9f316ca7920dd8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.89
+      value: -0.97
       objectReference: {fileID: 0}
     - target: {fileID: 7685850488929028788, guid: d289658187a9cf142a9f316ca7920dd8,
         type: 3}
@@ -334,12 +334,12 @@ PrefabInstance:
     - target: {fileID: 8318515401780455588, guid: d289658187a9cf142a9f316ca7920dd8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.85
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8318515401780455588, guid: d289658187a9cf142a9f316ca7920dd8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.29
+      value: 1.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d289658187a9cf142a9f316ca7920dd8, type: 3}
@@ -6381,10 +6381,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 379214598338175877, guid: 6d3cb5670bf45c245b9767b47dadee58,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 379214599015428005, guid: 6d3cb5670bf45c245b9767b47dadee58,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 379214599124411283, guid: 6d3cb5670bf45c245b9767b47dadee58,
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"collection":{"$content":[{"name":"moveVector","value":{"x":0.3,"y":1.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"inputQueue","value":{"$content":[],"$type":"System.Collections.Queue"},"$version":"A"},{"name":"input","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"spawnTimer","value":{"$content":0.35,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 379214599240663784, guid: 6d3cb5670bf45c245b9767b47dadee58,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 379214599739240941, guid: 6d3cb5670bf45c245b9767b47dadee58,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 380364215803592964, guid: 6d3cb5670bf45c245b9767b47dadee58,
         type: 3}
@@ -6449,6 +6469,16 @@ PrefabInstance:
     - target: {fileID: 429594017319959444, guid: 6d3cb5670bf45c245b9767b47dadee58,
         type: 3}
       propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 554594998413953346, guid: 6d3cb5670bf45c245b9767b47dadee58,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 556028947806337770, guid: 6d3cb5670bf45c245b9767b47dadee58,
+        type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3340210490681675692, guid: 6d3cb5670bf45c245b9767b47dadee58,
